@@ -42,8 +42,8 @@
 			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="#section-home">Inicio</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-resume">Resumen</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-about">Acerca de mi</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-resume">Acerca de mi</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-about">Quien soy</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-services">Servicios</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-contact">Contacto</a></li>
 				</ul>
@@ -207,7 +207,7 @@
 			<div class="row">
 				<div class="col-md-12 mb-5">
 					<div class="section-heading text-center">
-						<h2>Mi Resumen</h2>
+						<h2>Acerca de mi</h2>
 					</div>
 				</div>
 				<div class="col-md-12">
@@ -225,7 +225,7 @@
 						<p style="font-size: 14px">El marketing digital es el conjunto de estrategias y técnicas de promoción, publicidad y ventas en medios digitales, enfocado en la creación de relaciones duraderas y rentables con los clientes.</p>
 						<span class="school">Coder House</span>
 						<div style="display: flex;justify-content: end;">
-						<a href="https://www.coderhouse.com/certificados/63a4c105ab55b6000e0067cf" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Certificado</a>
+						<a href="#"  target="_blank" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Certificado</a>
 						</div>
 					</div>
 
@@ -236,7 +236,7 @@
 						</p>
 						<span class="school">Coder House</span>
 						<div style="display: flex;justify-content: end;">
-						<a href="https://www.coderhouse.com/certificados/6347324897eb43000e43d852" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Certificado</a>
+						<a  href="https://www.coderhouse.com/certificados/6347324897eb43000e43d852" target="_blank" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Certificado</a>
 						</div>
 					</div>
 
@@ -247,7 +247,7 @@
 						</p>
 						<span class="school">Coder House</span>
 						<div style="display: flex;justify-content: end;">
-						<a href="https://www.coderhouse.com/certificados/63a4c105ab55b6000e0067cf" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Certificado</a>
+						<a href="https://www.coderhouse.com/certificados/63a4c105ab55b6000e0067cf" target="_blank" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Certificado</a>
 						</div>
 					</div>
 					<div class="resume-item mb-4">
@@ -257,7 +257,7 @@
 						</p>
 						<span class="school">Coder House</span>
 						<div style="display: flex;justify-content: end;">
-						<a href="https://www.coderhouse.com/certificados/63a4c105ab55b6000e0067cf" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Certificado</a>
+						<a href="#" target="_blank" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Certificado</a>
 						</div>
 					</div>
 					
@@ -310,14 +310,14 @@
 					<img src="images/pruebacara.jpg" alt="Image placeholder" class="img-fluid">
 				</div>
 				<div class="col-lg-5 pl-lg-5">
-					<div class="section-heading mov-title">
-						<h2 class="mov-title">Acerca de mi</h2>
+					<div class="section-heading mov-title ">
+						<h2 class="mov-title">Quien soy</h2>
 					</div>
-					<p class="lead">Profesional, activa, dinámica, 
+					<p class="lead">Soy Martina Villarruel, me considero una persona profesional, activa, dinámica, 
 						orientada al cliente y resolutiva. 
-						Capacidad de planificación y 
-						organización del trabajo.
-						Habilidades de comunicación y 
+						Con capacidad de planificación y 
+						organización del trabajo,
+						y habilidades de comunicación y 
 						creatividad a la hora de resolver 
 						desafíos.</p>
 					<!-- <p class="mb-5  ">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
@@ -562,24 +562,24 @@
 			<div class="row">
 				<div class="col-md-12 mb-5">
 					<div class="section-heading text-center">
-						<h2>Contactanos</h2>
+						<h2>Contactame</h2>
 					</div>
 				</div>
 
 				<div class="col-md-12 mb-5 mb-md-0">
-					<form action="" class="site-form">
+					<form action="envio.php" method="POST" class="site-form">
 						<!-- <h3 class="mb-5">Ponete en contacto</h3> -->
 						<div class="form-group">
-							<input type="text" class="form-control px-3 py-4" placeholder="Nombre">
+							<input type="text" name="nombre" class="form-control px-3 py-4" placeholder="Nombre">
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control px-3 py-4" placeholder="Mail">
+							<input type="email" name="mail" class="form-control px-3 py-4" placeholder="Mail">
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control px-3 py-4" placeholder="Telefono">
+							<input type="number" name="telefono" class="form-control px-3 py-4" placeholder="Telefono">
 						</div>
 						<div class="form-group mb-5">
-							<textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Mensaje"></textarea>
+							<textarea class="form-control px-3 py-4"cols="30" rows="10" name="mensaje" placeholder="Mensaje"></textarea>
 						</div>
 						<div class="form-group">
 							<input type="submit" class="btn btn-primary  px-4 py-3" value="Enviar">
